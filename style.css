@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+.head-icon-1{
+    height: 10rem;
+    width: 20rem;
+    background-image: url("https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/033/original/SST_Logo.png?1706888781");
+    background-repeat: no-repeat;
+    margin: 2rem;
+    margin-left: 5rem;
+}
+.head-icon-2{
+    height: 10rem;
+    width: 20rem;
+    background-image: url("https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/032/original/scaler-social.png?1706888764");
+    background-repeat: no-repeat;
+    margin: 2rem;
+}
+
+.content-box{
+    display: flex;
+    height: 90vh;
+    width: 100vw;
+}
+
+.post-div{
+    flex: 3;
+
+}
+
+.see-post-div{
+    flex: 2;
+}
+.icon-text{
+    .icon{
+        height: 3rem;
+        width: 3rem;
+        background-image: url("https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/031/original/profile_image.png?1706888739");
+        background-repeat: no-repeat;
+    }
+}
+
+.post-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.post-container{
+    height: 20rem;
+    width: 40rem;
+
+    .post-text{
+        font-weight: bolder;
+        margin: 1rem;
+        font-size: 2rem;
+
+    }
+
+    .icon-text{
+        height: 17rem;
+        display: flex;
+        gap: 1rem;
+    }
+
+    .post-box{
+        border: 1px solid gray;
+        border-radius: 0.8rem;
+        padding: 1.5rem;
+    }
+    
+    .post-input textarea{
+        padding-top: 1rem;
+        border: none;
+        font-size: 1.5rem;
+        outline: none;
+        resize: none;
+    }
+
+    .post-footer{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .post-btn{
+        border: none;
+        width: 10rem;
+        height: 2.5rem;
+        background-color: blue;
+        border-radius: 25px;
+        color: white;
+        font-weight: bolder;
+        font-size: 1.2rem;
+    }
+}
+
+.see-post-div{
+    .your-feed{
+        font-size: 1.4rem;
+        font-weight: bolder;
+        margin: 1.5rem 0;
+    }
+    .post-arr{
+        /* background-color: pink; */
+        height: 80vh;
+    }
+    .posts{
+        height: 15rem;
+        
+        margin: 2rem;
+        border: 1px solid gray;
+        border-radius: 0.5rem;
+        .user-icon{
+            background-image: url("https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/031/original/profile_image.png?1706888739");
+            background-repeat: no-repeat;
+            height: 3rem;
+            width: 3rem;
+        }
+
+        .input{
+            /* background-color: pink; */
+            padding-top: 1rem;
+            padding-left: 4rem;
+            margin: 0.5rem;
+            border: none;
+            font-size: 1.5rem;
+            /* background-color: pink; */
+            height: 8rem;
+            outline: none;
+        }
+
+        .head-div{
+            margin: 0.5rem 1rem ;
+            height: 3rem;
+            display: flex;
+            justify-content: space-between;
+        }
+        .user-name{
+            margin-top: 0.3rem;
+            display: flex;
+            justify-content: space-between;
+            .name{
+                font-size: 1.1rem;
+                font-weight: bold;
+                margin: 0 0.5rem;
+            }
+            .nick-name{
+                color: gray;
+                margin: 0 0.5rem;
+            }
+        }
+        .foot-div{
+            display: flex;
+            margin-left: 5rem;
+            
+        }
+        .icons{
+            display: flex;
+        }
+        .edit-icon{
+            background-image: url("https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/028/original/edit.png?1706888661");
+            background-repeat: no-repeat;
+            height: 3rem;
+            width: 3rem;
+        }
+        .delete-icon{
+            background-image: url("https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/030/original/delete-color-filled.png?1706888714");
+            background-repeat: no-repeat;
+            height: 2rem;
+            width: 2rem;
+        }
+        .comment-icon{
+            background-image: url("https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/026/original/comment.png?1706888619");
+            background-repeat: no-repeat;
+            height: 4rem;
+            width: 4rem;
+        }
+        .like-icon{
+            background-image: url("https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/029/original/heart.png?1706888679");
+            background-repeat: no-repeat;
+            height: 2rem;
+            width: 2rem;
+        }
+    }
+}
